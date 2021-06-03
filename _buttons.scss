@@ -1,0 +1,62 @@
+.button {
+    display: inline-block; 
+    transition: all 0.2s ease; 
+    cursor: pointer; 
+    text-align: center; 
+    background: #f4f4f4; 
+    text-decoration: none; 
+    padding: 9px 25px; 
+    color: #333; 
+    border: none;
+
+    .fa {
+        margin: 0 7px 0 0;
+    }
+
+    :disabled,
+    .disabled {
+        cursor: default; 
+        opacity: 0.5; 
+    }
+
+    :hover {
+        background: #dadada; 
+        transform: scale(1.04);
+    }
+
+    &.green {
+        background: #50b981; 
+        color: #fff;
+
+        :hover{
+            background: #3faa71;
+        }
+    }
+
+    &.blue {
+        background: #1e1ca4; 
+        color: #fff;
+
+        :hover{
+            background: #1288b7;
+        }
+    }
+
+    &.grey {
+        background: #333; 
+        color: #fff;
+
+        :hover{
+            background: #202020;
+        }
+    }
+
+    &.black {
+        background: #000; 
+        color: #fff;
+
+        :hover{
+            background: #202020;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+Version 1.8 =============================
+Date: 3-11-21
+Updated to SASS stylesheets
+
+Version 1.7 =============================
+Date: 12-11-20
+Updated all theme files to WP Coding Standards
+Removed the built in SMTP feature
+
+Version 1.6 =============================
+Date: 4-20-20
+Added conditional formatting to default page template to handle both Beaver Builder and normal WP pages
+Added WooCommerce support in functions.php
+
+Version 1.5 =============================
+Date: 10-25-19
+Environment: Save a Warrior website
+Added variables to CSS
+ADA Compliance
+Reworked the social network selection/color
+
+Version 1.4 =============================
+Date: 8-22-19
+Fixed the FontAwesome font name in style.css
+Fixed the FontAwesome icons in the functions/social_networks.php file
+Changed the default mobile nav button color
+Added a 404 template file
+Updated the FontAwesome library
+Fixed an issue with the admin js/css files loading on the front end
+Moved the header scripts into the functions.php from the header.php file
+
+
+Version 1.3 =============================
+Added the loading SVG to the site-functions.js file
+Added #loading styles to the stylesheet
+
+
+Version 1.2 =============================
+Added SMTP email configuration options
+Updated the "entry-title" html on the category page
+
+
+Version 1.1 =============================
+Added lightbox popups/messages
+Added video lightbox
+Updated version of FontAwesome
+
+
+Version 1.0 =============================
+Updated all markup to HTML5
+Removed the Page Banner feature. No longer necessary as we are using Beaver Builder on all of our themes.
+Re-programmed the navigation JS functions (removed the old js file)
+Added the "scrolling" body class functionality
+Added social network support by default
+Added Font Awesome to the WP backend
