@@ -1,129 +1,137 @@
 #md_theme_settings {
-    position: relative;
+  position: relative;
 }
 
 .nav-tab {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .nav-tab .dashicons {
-	margin: 2px 4px 0 0; 
-	opacity: .6;
+  margin: 2px 4px 0 0;
+  opacity: 0.6;
 }
 
 .content_tab {
-	display: none; 
-	padding: 10px 0;
+  display: none;
+  padding: 10px 0;
 }
 .content_tab_active {
-	display: block;
+  display: block;
 }
 
 .theme_options fieldset {
-	border: 1px solid #dadada; 
-	padding: 10px 20px; 
-	background: #f9f9f9; 
-	margin: 0 0 20px 0;
+  border: 1px solid #dadada;
+  padding: 10px 20px;
+  background: #f9f9f9;
+  margin: 0 0 20px 0;
 }
 
 .theme_options fieldset legend {
-	font-weight: bold; 
-	font-size: 15px; 
-	padding: 0 10px; 
-	color: #0085ba;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0 10px;
+  color: #0085ba;
 }
 
 .theme_options .field_wrap {
-	border-bottom: 1px solid #dadada; 
-	padding: 8px;
+  border-bottom: 1px solid #dadada;
+  padding: 8px;
 }
 
 .theme_options label {
-	min-width: 150px; 
-	font-weight: bold;
+  min-width: 150px;
+  font-weight: bold;
 }
 
-.theme_options input[type='text'] {
-	width: 400px;
+.theme_options input[type="text"] {
+  width: 400px;
 }
 
 .theme_options textarea {
-	width: 400px; 
-	height: 100px;
+  width: 400px;
+  height: 100px;
 }
 
 .theme_options code {
-	vertical-align: top;
+  vertical-align: top;
 }
 
 #content_tab_general .general_setting {
-	padding: 20px 0; 
-	border-bottom: 1px solid #dadada;
+  padding: 20px 0;
+  border-bottom: 1px solid #dadada;
 }
 
 #content_tab_general .general_setting h4 {
-	margin: 0 0 4px 0; 
-	font-size: 20px; 
-	color: #0073aa;
+  margin: 0 0 4px 0;
+  font-size: 20px;
+  color: #0073aa;
 }
 
 #content_tab_sn .social_network {
-	border-bottom: 1px solid #dadada; 
-	padding: 20px 0;
+  border-bottom: 1px solid #dadada;
+  padding: 20px 0;
 }
 
 #content_tab_sn .social_network h4 {
-	margin: 0 0 4px 0; 
-	font-size: 16px; 
-	color: #8a8a8a;
+  margin: 0 0 4px 0;
+  font-size: 16px;
+  color: #8a8a8a;
 }
 
 #content_tab_sn .social_network .fa {
-	font-size: 20px; 
-	width: 30px; 
-	vertical-align: middle; 
-	color: #0073aa;
+  font-size: 20px;
+  width: 30px;
+  vertical-align: middle;
+  color: #0073aa;
 }
 
 /* Loading mask styles ===================================================== */
 
-.md-loading-mask{
-    position: absolute; 
-    top: 0; 
-    right: 0; 
-    left: 0; 
-    bottom: 0; 
-    background: rgba(255,255,255,.5); 
-    z-index: 99;
+.md-loading-mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 99;
 }
 
-.md-loading-spinner{
-    border: 5px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 5px solid #333;
-    width: 50px;
-    height: 50px;
-    -webkit-animation: spin 1s linear infinite; /* Safari */
-    animation: spin 1s linear infinite;
-    position: absolute;
-    top: calc(50% - 25px);
-    left: calc(50% - 25px);
+.md-loading-spinner {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #333;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 1s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
 }
 
 @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-.md-loading-mask svg{
-    position: absolute; 
-    top: calc(50% - 25px); 
-    left: calc(50% - 25px);
+.md-loading-mask svg {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
 }
 
 /* /Loading mask styles ===================================================== */
