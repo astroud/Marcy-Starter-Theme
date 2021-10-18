@@ -2,7 +2,7 @@
 Theme Name: Developer Theme
 Description: This is a bare bones theme used for building out custom themes
 Author: Adam Bates
-Version: 1.0.1
+Version: 1.0.2
 */
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans: 400,700|Raleway: 400,700&display=swap");
@@ -151,6 +151,12 @@ body {
   background: #f9f9f9;
   z-index: 999;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+
+  .content_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 #logo {

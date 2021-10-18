@@ -51,7 +51,6 @@
                 ] ); ?>
 			</nav>
 			
-			<div class='clear'></div>
 		</section>
 	</header>
 	<section id='container'>
