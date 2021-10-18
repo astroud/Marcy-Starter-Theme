@@ -156,6 +156,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: break_point(tablet)) {
+      justify-content: center;
+    }
   }
 }
 
@@ -163,19 +167,26 @@ body {
   float: left;
 
   img {
-    height: 100px;
+    height: clamp(30px, 5vw,50px);
     width: auto;
   }
 }
 
 #main_nav {
   text-align: right;
-  float: right;
+  flex-grow: 1000;
 
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
+
+    // hide home link when screen narrows
+    li:first-child {
+      @media screen and (max-width: 1000px) {
+        display: none;
+      }
+    }
 
     li {
       display: inline-block;
@@ -185,7 +196,7 @@ body {
         display: inline-block;
         position: relative;
         line-height: 30px;
-        padding: 0 15px;
+        padding: 0 0.75vw;
         text-decoration: none;
         transition: all 0.2s ease;
         font-weight: bold;

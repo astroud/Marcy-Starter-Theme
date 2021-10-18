@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-Theme Name: Developer Theme
+Theme Name: Nouvo - Developer Theme
 Description: This is a bare bones theme used for building out custom themes
 Author: Adam Bates
 Version: 1.0.2
@@ -392,23 +392,33 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+  #main_header .content_wrap {
+    justify-content: center;
+  }
+}
 
 #logo {
   float: left;
 }
 #logo img {
-  height: 100px;
+  height: clamp(30px, 5vw,50px);
   width: auto;
 }
 
 #main_nav {
   text-align: right;
-  float: right;
+  flex-grow: 1000;
 }
 #main_nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+@media screen and (max-width: 1000px) {
+  #main_nav ul li:first-child {
+    display: none;
+  }
 }
 #main_nav ul li {
   display: inline-block;
@@ -418,7 +428,7 @@ body {
   display: inline-block;
   position: relative;
   line-height: 30px;
-  padding: 0 15px;
+  padding: 0 0.75vw;
   text-decoration: none;
   transition: all 0.2s ease;
   font-weight: bold;
